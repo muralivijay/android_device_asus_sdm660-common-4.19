@@ -13,6 +13,9 @@ ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=14
 ro.config.alarm_vol_steps=25
 
+# Blur
+ro.launcher.blur.appLaunch=0
+
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
