@@ -114,10 +114,6 @@ vendor.display.disable_scaler=0
 # DRM
 drm.service.enabled=true
 
-# EGL - Blobcache configuration
-ro.egl.blobcache.multifile=true
-ro.egl.blobcache.multifile_limit=33554432
-
 # FM
 vendor.fm.a2dp.conc.disabled=false
 
