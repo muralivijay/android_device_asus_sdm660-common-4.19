@@ -32,6 +32,12 @@ persist.dirac.acs.controller=qem
 persist.dirac.acs.ignore_error=1
 persist.dirac.acs.storeSettings=1
 
+# Display
+debug.egl.hw=1
+debug.sf.hw=1
+dev.pm.dyn_samplingrate=1
+persist.hwc.enable_vds=1
+
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
 
