@@ -554,7 +554,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.asus.rc \
     init.qcom.rc \
-    init.msm.usb.configfs.rc \
     init.qcom.usb.rc \
     init.asus_parts.rc \
     init.recovery.qcom.rc \
@@ -617,7 +616,12 @@ PRODUCT_SHIPPING_API_LEVEL := 27
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service.basic
+    usb_compositions.conf \
+    android.hardware.usb@1.3-service.basic \
+    android.hardware.usb.gadget@1.2-service-qti
+
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/qcom/opensource/usb/etc
 
 # Vibrator
 $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
