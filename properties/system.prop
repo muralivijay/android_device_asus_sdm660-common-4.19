@@ -34,10 +34,6 @@ persist.hwc.enable_vds=1
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
 
-# Fling
-ro.min.fling_velocity=160
-ro.max.fling_velocity=20000
-
 # FM
 vendor.hw.fm.init=0
 
