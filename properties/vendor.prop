@@ -117,6 +117,7 @@ vendor.display.disable_offline_rotator=1
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.enable_async_powermode=0
 vendor.display.qdcm.mode_combine=1
+vendor.perf.framepacing.enable=1
 
 # Dolby
 persist.vendor.audio_fx.current=dolby
