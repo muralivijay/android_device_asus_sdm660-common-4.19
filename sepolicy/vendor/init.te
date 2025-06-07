@@ -13,3 +13,6 @@ allow init sysfs_battery_supply:file { setattr };
 # /proc/last_kmsg
 allow init proc_last_kmsg:file r_file_perms;
 allow init proc_last_kmsg:file setattr;
+
+# Allow Vendor_init set Radio Prop
+set_prop(vendor_init, vendor_radio_prop)
