@@ -151,7 +151,7 @@ on property:vendor.dcvs.prop=1
    start dcvs-sh
 
 
-on property:init.svc.vendor.charger=running
+on charger
     start qcom-post-boot
     start vendor.hvdcp_opti
     setprop vendor.usb.controller a800000.dwc3

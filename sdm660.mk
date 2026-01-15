@@ -122,7 +122,7 @@ PRODUCT_COPY_FILES += \
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.charger.disable_init_blank=true
+    ro.charger.enable_suspend=true
 
 # Configstore (Disabled)
 PRODUCT_PACKAGES += \
@@ -203,11 +203,9 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health-service.qti \
-    android.hardware.health-service.qti_recovery
-    
-PRODUCT_PACKAGES += \
-    android.hardware.health@2.1.vendor    
+    android.hardware.health@2.1-impl:64 \
+    android.hardware.health@2.1-service \
+    android.hardware.health@2.1-impl.recovery
 
 # GMS Permissions
 PRODUCT_COPY_FILES += \
