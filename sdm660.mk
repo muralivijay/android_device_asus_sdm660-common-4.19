@@ -516,9 +516,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH)
 
-QCOM_SOONG_NAMESPACE := \
-    $(COMMON_PATH)/qcom-caf
-
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
