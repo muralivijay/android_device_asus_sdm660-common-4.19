@@ -1,0 +1,1 @@
+allow untrusted_app_30 qemu_sf_lcd_density_prop:file { read };
